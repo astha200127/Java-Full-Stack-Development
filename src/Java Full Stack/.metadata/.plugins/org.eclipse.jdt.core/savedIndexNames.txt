@@ -1,0 +1,5 @@
+INDEX VERSION 1.134+C:\Users\astha\OneDrive\onedrive\Desktop\Java Full Stack\.metadata\.plugins\org.eclipse.jdt.core
+1696264553.index
+1865797976.index
+3042722437.index
+3742190952.index

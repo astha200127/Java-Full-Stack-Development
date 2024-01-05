@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class IfElseDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the first number:");
+		int n1=sc.nextInt();
+		System.out.println("Enter the second number:");
+		int n2=sc.nextInt();
+		//if statement
+		if(n1+n2==20) {
+			System.out.println("Mai to jaa rha hu NH24 se");
+		}
+		else
+		{
+			System.out.println("Mai to jaa rha hu NH12 se");
+		}
+		
+	}
+
+}
