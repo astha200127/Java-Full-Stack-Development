@@ -1,16 +1,13 @@
 package OOPS_CONCEPTS.LiveClass_13;
 
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
-
- class Shape
+class Shape
 {
     void draw()
     {
         System.out.println("drawing shape");
     }
 }
-class Circle extends Shape
-{
+class Circle extends Shape {
     void draw()
     {
        // super.draw();  //super. ka matlab hai parent class ka method call karwa do
@@ -18,8 +15,7 @@ class Circle extends Shape
         System.out.println("Drawing circle");
     }
 }
-class Rectangle extends Shape
-{
+class Rectangle extends Shape{
     void draw()
     {
     System.out.println("Drawing Rectangle");
@@ -29,9 +25,17 @@ public class Test
 {
     public static void main(String[] args)
     {
-        Shape shape=new Circle();
+        Shape shape=new Shape();
         shape.draw();
+        Circle circle=new Circle();
+        circle.draw();
+        Rectangle rectangle=new Rectangle();
+        rectangle.draw();
 
+        Shape shape1=new Circle();
+        Shape shape2=new Rectangle();
+        shape1.draw();
+        shape2.draw();
     }
 }
 
