@@ -1,25 +1,25 @@
 package OOPS_CONCEPTS.LiveClass_14;
 
-class A
+class animal
 {
-    String city;
+    String name;
 }
-class B extends A
+class Dog extends animal
 {
- String city;
+ String name;
  void print()
  {
-     super.city="Agra";
-     city="Delhi";
-     System.out.println("The city in the parent is :"+super.city);
-     System.out.println("The child city is: "+this.city);
+     super.name="Animal";
+     name="Jypsy";
+     System.out.println("The dog in the parent is :"+super.name);
+     System.out.println("The child city is: "+this.name);
  }
 }
 public class Test1
 {
     public static void main(String[] args)
     {
-     B b=new B();
-     b.print();
+     Dog d=new Dog();
+     d.print();
     }
 }
